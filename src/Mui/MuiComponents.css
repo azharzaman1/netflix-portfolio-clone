@@ -1,0 +1,80 @@
+.MuiHeading {
+  color: var(--secondary-light) !important;
+  font-size: 17px !important;
+  user-select: none !important;
+}
+
+.MuiHeading > span {
+  font-size: 14.5px !important;
+  margin-left: 3px;
+}
+
+.MuiHeading.type1 {
+  font-family: Consolas1 !important;
+  font-weight: 500 !important;
+}
+
+.MuiHeading.type2 {
+  font-size: 17px !important;
+  font-family: "Roboto" !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.3px;
+  margin-left: 3px !important;
+}
+
+.MuiHeading2 {
+  color: rgb(236, 255, 253);
+  font-size: 17px;
+  user-select: none !important;
+}
+
+.MuiButton {
+  border: 2px solid var(--secondary) !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  font-family: "Roboto", sans-serif !important;
+  user-select: none !important;
+}
+
+.MuiButton:hover {
+  background-color: var(--secondary) !important;
+  color: var(--text-bright) !important;
+  transition: color 250ms, background-color 250ms !important;
+}
+
+.MuiButton.fs {
+  font-size: 14px !important;
+}
+
+.rs--anchor {
+  margin-top: 4rem !important;
+}
+
+.projectsImage__popup {
+  background-color: rgba(65, 105, 225, 0.72);
+}
+
+.projectsImage__popupClose {
+  position: fixed;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  color: lightblue !important;
+  font-size: 25px !important;
+  cursor: pointer;
+  transition: all 0.2s;
+  opacity: 0;
+  animation: AppearClose 1s linear 2.5s forwards;
+}
+
+.projectsImage__popupClose:hover {
+  color: rgb(255, 190, 190) !important;
+}
+
+@keyframes AppearClose {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
